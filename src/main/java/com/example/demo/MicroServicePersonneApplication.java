@@ -17,8 +17,7 @@ public class MicroServicePersonneApplication {
     @Bean
     ApplicationRunner start(PersonneRepository repository) {
         return args -> {
-            repository.save(new Personne("El", "chama"));
-            repository.save(new Personne("Abouqora", "Youness"));
+            repository.save(new com.example.demo.model.Personne("Tobias", "Mustermann"));
         };
     }
 }

@@ -1,3 +1,4 @@
-com\example\demo\FirstmsApplication.class
-com\example\demo\dao\PersonneRepository.class
 com\example\demo\model\Personne.class
+com\example\demo\repository\PersonneRepository.class
+com\example\demo\controller\PersonneRestController.class
+com\example\demo\MicroServicePersonneApplication.class
