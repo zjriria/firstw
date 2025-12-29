@@ -20,8 +20,8 @@ public class PersonneRestController {
         return personneRepository.findAll();
     }
 
-    @GetMapping("/personnes/u/{id}")
-    public Personne getPersonneu(@PathVariable("id") Long id) {
+    @GetMapping("/personnes/Test/{id}")
+    public Personne getPersonnetest(@PathVariable("id") Long id) {
         return personneRepository.findById(id).orElse(null);
     }
     @GetMapping("/personnes/{id}")
