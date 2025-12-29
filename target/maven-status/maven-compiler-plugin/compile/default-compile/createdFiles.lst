@@ -1,4 +1,8 @@
-com\example\demo\model\Personne.class
+handler\GlobalExceptionHandler.class
 com\example\demo\repository\PersonneRepository.class
 com\example\demo\controller\PersonneRestController.class
+com\example\demo\model\Personne.class
 com\example\demo\MicroServicePersonneApplication.class
+exceptions\PersonneNotFoundException.class
+com\example\demo\service\PersonneService.class
+handler\ErrorResponse.class
